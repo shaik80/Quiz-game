@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #c33764, #1d2671);
+}
+#game{
+    margin: 30px 80px 80px 80px; 
+    background-color: #ffffff;
+    /* text-align: center;
+    border: 1px #00000026;
+    ;
+    */
+    box-shadow: 13px 10px 9px;
+    padding: 25px;
+    border-radius: 15px; 
+}
+#game .question{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #aab5e6;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+
+}
+
+#game .option{
+    float: center;
+}
+
+#game .option ul{
+    list-style: none;
+}
+#game .option ul li{
+    display: inline-block;
+    box-shadow: 5px 5px 9px;
+    background-color: aquamarine;
+    width: 40%;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 15px;
+
+}
+#game .game_head{
+    float: center;
+}
+
+#game .game_head ul{
+    list-style: none;
+}
+
+#game .option ul .Correct{
+    background-color: green;
+}
+#game .option ul .Wrong{
+    background-color: red;
+}
+#game .game_head ul li{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 40%;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 15px;
+
+}
+
+#game .game_footer{
+    float: center;
+    display: inline-flex;
+    margin-left: 50px;
+    width: 100%;
+}
+
+#game .game_footer .next{
+    width: 50%;
+}
+#game .game_footer .next button{
+    text-align: center;
+    font-size: 18px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    box-shadow: 13px 10px 9px;
+}
+#game .game_footer .score{
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    box-shadow: 13px 10px 9px;
+}
+
+button{
+    text-align: center;
+    font-size: 18px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    box-shadow: 13px 10px 9px;
+}

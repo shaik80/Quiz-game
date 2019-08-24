@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+            <h1 class="">Quiz Game</h1>
+            <div id="game">
+                <div class="game_head">
+                        <ul>
+                                <li>Question no : <span id="ques_no"></span></li>
+                                <li>Time : <span id="Time_int"></span>
+                                    </li>
+                            </ul>
+                </div>
+                <div class="question">
+                    <p id="question"></p>
+                </div>
+                <div class="option">
+                    <ul id="ul">
+                        <li id="op1" onclick="button(this)" ></li>
+                        <li id="op2" onclick="button(this)"></li>
+                        <li id="op3" onclick="button(this)"></li>
+                        <li id="op4" onclick="button(this)"></li>
+                    </ul>
+                </div>
+                <div class="game_footer">
+                    <div class="next">
+                        <button type="submit" id="submit" onclick="next()">Next</button>
+                    </div>
+                    <div class="score">
+                        Score : <span id="socre_no"></span> / 10                        
+                        </div>                               
+                </div>
+            </div>
+        <script src="./js/script.js" type="text/javascript"></script>
+    </body>
+</html>
