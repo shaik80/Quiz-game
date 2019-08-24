@@ -22,7 +22,7 @@ function clock(){
     if(document.getElementById("Time_int").innerHTML == "31 Sec / 30 Sec"){
         clearInterval(stoptime);
         alert("time out");
-        window.location.replace("../index.html");   
+        window.location.replace("../Quiz-game/index.html");   
     }
 
 }
